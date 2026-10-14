@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Exercise 02: The Live DOM Tree</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>	
+	</head>
+
+	<body class="body-style">
+		<div>
+			<h1 class="body-style">Note Manager application</h1>
+			<br>
+
+                        <div class="input-Box">
+                                <Label for="note" style="color: red;">Note: </label>
+                                <input type="text" id="note" size="42">
+			<button id="Add" class="Button-style Inc">Add</button>
+                        </div>
+			<br>
+
+			<div class="Counter-Box">
+				<h3>Total Tasks : </h3>
+				<h3 id="TasksNum">0</h3>
+			</div>
+			<br>
+			
+			<ul id="taskList" class="task-list">				
+			</ul>
+			<br>
+		</div>
+	</body>
+</html>

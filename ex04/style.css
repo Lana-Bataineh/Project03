@@ -1,0 +1,86 @@
+.body-style {
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items : center;
+}
+
+.Counter-Box{
+	width : 525px;
+	height : 30px;
+	display : flex;
+	justify-content : center;
+        align-items : center;
+        background-color :#F5F5F5;
+	box-shadow:0px 4px 8px rgba(128, 128, 128, 0.2);
+	gap : 30px;
+}
+
+.Button-Box {
+        width : 500px;
+        height : 50px;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        gap : 20px;
+	background-color :#F5F5F5;
+}
+
+.Button-style{
+
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	font-size : 16px;
+	width : 80px;
+	height : 35px;
+	border : 1px solid #DEDEDE;
+	border-radius : 4px;
+	
+}
+
+.Inc {
+	background-color : #DDFFDD;
+}
+
+.Del {
+        background-color : #FEC4C4;
+}  
+
+
+
+.input-Box{
+        width : 525px;
+        display : flex;
+        justify-content :space-between;
+	gap : 10px;
+	padding : 12px;
+	box-sizing : border-box;
+        background-color :#F5F5F5;
+	border-radius: 6px;
+}
+
+.task-list {
+	width : 525px;
+        padding : 0px;
+	list-style : none;
+}
+
+.task-list-item {
+	display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F5F5F5;
+	width: 100%;
+        padding: 12px;
+        margin-top: 5px;
+        border-radius: 4px;
+        border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+
+}
+
+.completed{
+	text-decoration : line-through ;
+	color : rgb(196, 199, 195);
+}
