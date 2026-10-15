@@ -47,3 +47,7 @@ console.log("Age = 20 , hasTicket = flase ----> result = ",checkAccess(20 , fals
 console.log("Age = 15 , hasTicket = true ----> result = ",checkAccess(17 , true));
 console.log("Age = 25 , hasTicket = true ----> result = ",checkAccess(25 , true));
 console.log("Age = true , hasTicket = true ----> result = ",checkAccess(true , true));
+
+// difference between == and ===
+console.log(" 5 == '5' is " , (5 == '5'));
+console.log(" 5 === '5' is " , (5 === '5'));
