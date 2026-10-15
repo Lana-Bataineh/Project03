@@ -12,7 +12,10 @@ console.log("Age = " + age);
 console.log("Coding Status = " + coding);
 
 if(typeof age == "number")
+{
 	age++;
+	console.log("Age after increment = " + age);
+}
 
 console.log("Name Data type is : " + typeof(name));
 console.log("Age Data type is : " + typeof(age));
